@@ -24,7 +24,10 @@ struct Pairs {
 	//The reank of the hand.
 	Score handS;
 	//The hand itself.
+	//Testing how changes would work.
 	vector<Card> hVec;
+
+
 };
 
 int readCards(vector<Card> & cardV, char * filename);
